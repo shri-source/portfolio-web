@@ -8,7 +8,7 @@ function Resume() {
       <div className="container m-auto px-6 text-gray-600 md:px-12 xl:px-6">
      
         <div className=" ml-80">
-          <img src="/shrirammithe@gmail.com.jpg" type="application/pdf" width="50%" height="300px" />
+          <img src="/shrirammithe@gmail.com.jpg" type="application/pdf" width="60%" height="300px" />
         </div>
       </div>
     </div>

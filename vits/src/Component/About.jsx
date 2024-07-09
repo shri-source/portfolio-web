@@ -51,7 +51,7 @@ export default function About() {
             <h1 className='text-4xl text-pink-900 font-bold mt-20 ml-9 text-center'>My Services</h1>
           </div>
           <div className="Card">
-          <div className='flex justify-center items-center gap-8 flex-col'>
+          <div className='flex justify-center items-center gap-8 '>
             <div className='w-80 p-8 border-red-500 mt-10 shadow-[15px_25px_30px_-15px_rgba(0,0,0,0.9)] animate-bounce'>
             <img className='w-40 ml-12' src="https://static.vecteezy.com/system/resources/previews/003/573/245/non_2x/computer-repair-logo-template-software-development-design-desktop-service-vector.jpg" alt="" />
             <h2 className='text-center text-2xl font-bold mb-2 text-orange-400'>Web Development</h2>
