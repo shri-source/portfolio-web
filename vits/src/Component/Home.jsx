@@ -1,17 +1,26 @@
-import React from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from 'react';
+import Rotate from "react-reveal/Rotate";
 import { Link } from 'react-router-dom';
 import '../Props/Home.css';
 export default function Home() {
+    useEffect(() => {
+        AOS.init({
+          duration: 1000,
+          once: true, 
+        });
+      }, []);
     return (
         <div className="mx-auto w-full max-w-7xl ">
             <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
                 <div className="relative z-10 max-w-screen-xl px-4  pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
                     <div className="max-w-xl sm:mt-1 mt-80 space-y-8 text-center sm:text-right sm:ml-auto">
-                        <h2 className="text-4xl font-bold sm:text-5xl text-white">
-                            <span className='text-orange-500'>Shriram</span> Mithe
-                            <span className="hidden sm:block text-2xl text-white">Frontend Developer</span>
+                        <h2 data-aos="zoom-in"  className="text-4xl font-bold sm:text-5xl text-white">
+                            <span  className='text-orange-500'>Shriram</span> Mithe
+                            <span className="hidden sm:block text-2xl text-white">Frontend <span className='text-orange-400'>Developer</span></span>
                         </h2>
-                        <Link
+                       <Rotate><Link
                             className="inline-flex text-white items-center px-6 py-3 font-medium bg-orange-500 rounded-lg hover:opacity-75"
                             to="/about"
                         >
@@ -27,10 +36,11 @@ export default function Home() {
                             </svg> */}
                             View Profile
                         </Link>
+                        </Rotate> 
                     </div>
                 </div>
 
-                <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
+                <div data-aos="zoom-in" data-aos-delay="600" className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
                     <img className="w-96 " src="https://i.ibb.co/5BCcDYB/Remote2.png" alt="image1" />
                 </div>
             </aside>

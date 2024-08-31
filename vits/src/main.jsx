@@ -8,7 +8,6 @@ import Layout from './Component/Layout.jsx'
 import Login from './Component/Login.jsx'
 import Resume from './Component/Resume.jsx'
 import './index.css'
-
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path='/' element={<Layout />}>

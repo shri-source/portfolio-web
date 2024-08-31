@@ -9,7 +9,7 @@ export default function Footer() {
                     <div className="mb-6 md:mb-0">
                         <Link to="/" className="flex items-center">
                             <img
-                                src="https://logos.flamingtext.com/Name-Logos/Sriram-design-china-name.png"
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpUBXTPw-cmlyZsXgSRF81FZAPSR1VMfUeaw&s"
                                 className="mr-3 h-16"
                                 alt="Logo"
                             />
@@ -76,7 +76,7 @@ export default function Footer() {
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <span className="text-sm text-gray-500 sm:text-center">
                         © 2023
-                        <a href="https://hiteshchoudhary.com/" className="hover:underline hover:text-orange-500">
+                        <a href="https://shrirammithe.com/" className="hover:underline hover:text-orange-500">
                            Shrirammithe
                         </a>
                         . All Rights Reserved.
